@@ -1,0 +1,60 @@
+body {
+  display: block;
+  background-color: white;
+  padding: 24px;
+  }
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  line-height: 32px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+nav li{
+display: inline;
+padding-left: 16px;
+}
+
+nav {
+  justify-content: flex-end;
+}
+
+.header-container {
+  display: flex;
+  padding: 32px 24px;
+  background-color: gray;
+}
+.container {
+  display: flex;
+}
+.learn {
+  display: block;
+  justify-content: center;
+  width: 40%;
+}
+
+.main-media {
+  width: 60%;
+}
+.main-img {
+  max-width: 100%;
+  height: auto;
+}
+.information {
+  width: 40%;
+  padding: 16px;
+}
+
+footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
